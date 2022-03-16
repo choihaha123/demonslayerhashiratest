@@ -1,0 +1,416 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.file-upload {
+  margin: 0 auto;
+  padding : 13% 3%;
+  border-radius: 10px;
+  border: solid 1.5px #f6f7fa;
+  background-color: #f6f7fa;
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+#loading {
+  display: none;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  width: 50%;
+  margin: 0 auto;
+  /* margin-top: 20px; */
+  /* border: 4px dashed #1FB264; */
+  position: relative;
+  /* width: 524px;
+  height: 403px; */
+  /* padding: 99px 105px 94px 104px; */
+  object-fit: contain;
+  border-radius: 10px;
+  border: dashed 1.5px #35465d;
+  background-color: #ffffff;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #66B2FF;
+  border: 1.5px dashed #ffffff;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #15824B;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 60%;
+  max-width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+.try-again-btn {
+  border-radius: 40px;
+  border: solid 1.5px #35465d;
+  background-color: #35465d;
+}
+
+.try-again-text {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 15px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.nav-distance {
+  padding: 2.1% 4.4%;
+}
+
+.navbar-light .navbar-brand {
+  font-family: Tahoma;
+  /*font-size: 3%;*/
+  line-height: 1.68;
+  text-align: left;
+  color: #404040;
+  /* color: #35465d; */
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.title {
+  font-family: Tahoma;
+  line-height: 1.67;
+  text-align: center;
+  color: #35465d;
+}
+
+.subtitle {
+  font-family: Tahoma;
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d;
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+	.navbar-brand {
+		font-size: 2rem;
+	}
+}
+
+/*----------------------*/
+.upload {
+    width: 20%;
+}
+
+.bar-container {
+  height: 2.7rem;
+}
+/*----------------------*/
+
+.upload-text {
+  width: 50%;
+  font-family: Tahoma;
+  font-size: 1.5rem;
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d;
+  margin: 0 auto;
+}
+
+
+.GiyuTomioka-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(64, 135, 221, 0.2);
+}
+.GiyuTomioka-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(64, 135, 221, 1);
+}
+
+
+.KyojuroRengoku-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(186, 33, 33, 0.2);
+}
+.KyojuroRengoku-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(186, 33, 33, 1);
+}
+
+
+.ObanaiIguro-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(56, 135, 163, 0.2);
+}
+.ObanaiIguro-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(56, 135, 163, 1);
+}
+
+
+.MitsuriKanroji-box { /*배경*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(236, 95, 196, 0.2);
+}
+.MitsuriKanroji-bar { /*퍼센트*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(236, 95, 196, 1);
+}
+
+
+.ShinobuKocho-box {
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(183, 59, 232, 0.2);
+}
+.ShinobuKocho-bar {
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(183, 59, 232, 1);
+}
+
+
+.TengenUzui-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(15, 52, 107, 0.2);
+}
+.TengenUzui-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(15, 52, 107, 1);
+}
+
+
+.MuichiroTokita-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(23, 161, 142, 0.2);
+}
+.MuichiroTokita-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(23, 161, 142, 1);
+}
+
+
+.GyomeiHimejima-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(161, 96, 23, 0.2);
+}
+.GyomeiHimejima-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(161, 96, 23, 1);
+}
+
+
+.SanemiShinazugawa-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.SanemiShinazugawa-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+
+.percent-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.animal-label {
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+}
+
+#label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.result-message {
+    font-size: 2rem;
+}
+
+/*---------------------*/
+label {
+  cursor: pointer;
+  display: inline-block;
+  width: 90px;
+  height: 41px;
+  box-shadow: 0 0 0 8px #e5e9ea inset;
+  border-radius: 30px;
+  position: relative;
+}
+/*---------------------*/
+
