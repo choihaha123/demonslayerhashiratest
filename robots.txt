@@ -1,4 +1,4 @@
 User-agent: *
 Allow:/
 
-Sitemap: http://demonslayerhashiratest.netlify.app/sitemap.xml
+Sitemap: https://demonslayerhashiratest.netlify.app/sitemap.xml
